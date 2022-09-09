@@ -4,7 +4,7 @@
 class FilterGeneric {
 
     private:
-    virtual bool g (int x);
+    virtual bool g (int x)=0;
 
     public:
     std::vector<int> filter(std::vector<int> FILTERINPUT);

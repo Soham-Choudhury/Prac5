@@ -4,9 +4,9 @@
 #include <iostream>
 using namespace std;
 
-bool FilterGeneric::g (int x){
-    return false;
-};
+//bool FilterGeneric::g (int x){
+//    return false;
+//};
 
 std::vector<int> FilterGeneric::filter(std::vector<int> FILTERINPUT){
     int value=FILTERINPUT[0];//grabbing first value of input vector

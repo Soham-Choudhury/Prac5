@@ -3,9 +3,9 @@
 #include <vector>
 #include <iostream>
 using namespace std;
-int MapGeneric::f(int x){
-    return x;
-};
+//int MapGeneric::f(int x){
+//    return x;
+//};
 
 std::vector<int> MapGeneric::map(std::vector<int> INPUT){
     int value=INPUT[0];//grabbing first value of input vector
